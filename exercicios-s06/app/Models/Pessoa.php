@@ -5,7 +5,7 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Pessoas extends Model
+class Pessoa extends Model
 {
     use HasFactory;
 
@@ -15,7 +15,5 @@ class Pessoas extends Model
         'contact'
     ];
 
-    protected $hidden = [
-        'password'
-    ];
+    protected $hidden = [];
 }
